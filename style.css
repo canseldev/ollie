@@ -1,0 +1,123 @@
+html, body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #058466 ;
+}
+main {
+    height:calc(100vh - 160px);
+    width: calc(100% - 280px);
+    background-color:white;
+    margin: 80px 140px;
+    overflow: scroll;
+    background-color: #fc9f5a;
+    border-radius: 10px;
+  
+}
+main .head {
+    display: flex;
+    gap: 50px;
+    padding: 10px 20px;
+    width:calc(100% - 320px);
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+main .head .logo-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+main .head .logo-menu .logo {
+    color:#058466;
+    font-weight: bold;
+    font-size: 34px;
+
+}
+main .head .logo-menu .list ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    align-items: center;
+    
+}
+main .head .logo-menu .list ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+main .head .search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+main .head .search .input i {
+    color: #058466;
+    font-size: 18px;
+}
+main .head .search .input input {
+    border: none;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+}
+main .head .search .input input:focus {
+    outline: none;
+}
+main .head .search button {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+main .body {
+    display: flex;
+    margin-top: 80px;
+}
+main .body .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 40px;
+    padding-left: 60px;
+    gap: 20px;
+    color: white;
+}
+main .body .left p {
+    font-size: 20px;
+}
+main .body .left h1 {
+    font-size: 36px;
+}
+main .body .left button {
+     margin-right: 210px;
+     padding: 10px 20px;
+     width: 160px;
+     background-color: #058466;
+     color: white;
+     border: 1px solid #058466;
+     border-radius: 5px;
+}
+main .body .right {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+}
+main .body .right img {
+    width: 300px;
+    height: 450px;
+}
+
+
+/* #058466  yeşil
+#fc9f5a turuncu*/
